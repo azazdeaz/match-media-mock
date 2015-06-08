@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:azazdeaz/MatchMediaMock.git"
+    "url": "git@github.com:azazdeaz/match-media-mock.git"
   },
   "keywords": [
     "radium",
@@ -21,9 +21,9 @@
   "author": "Polgár András",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azazdeaz/MatchMediaMock/issues"
+    "url": "https://github.com/azazdeaz/match-media-mock/issues"
   },
-  "homepage": "https://github.com/azazdeaz/MatchMediaMock",
+  "homepage": "https://github.com/azazdeaz/match-media-mock",
   "dependencies": {
     "css-mediaquery": "^0.1.2",
     "exenv": "^1.2.0",
