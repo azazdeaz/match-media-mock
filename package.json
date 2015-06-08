@@ -1,0 +1,36 @@
+{
+  "name": "match-media-mock",
+  "version": "0.1.0",
+  "description": "server side compatible replacement for Window.matchMedia()",
+  "main": "lib/MatchMediaMock.js",
+  "scripts": {
+    "lib": "babel ./src --out-dir lib  --source-maps --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:azazdeaz/MatchMediaMock.git"
+  },
+  "keywords": [
+    "radium",
+    "matchMedia",
+    "isomorphic",
+    "server",
+    "mediaquery"
+  ],
+  "author": "Polgár András",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azazdeaz/MatchMediaMock/issues"
+  },
+  "homepage": "https://github.com/azazdeaz/MatchMediaMock",
+  "dependencies": {
+    "css-mediaquery": "^0.1.2",
+    "exenv": "^1.2.0",
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.14",
+    "eslint": "^0.22.1"
+  }
+}
