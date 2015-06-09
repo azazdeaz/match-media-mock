@@ -1,5 +1,5 @@
 #MatchMediaMock
-Simple server side compatible substitution for ```Window.macthMedia()``` based on [css-mediaquery].
+Simple server side compatible substitution for ```Window.matchMedia()``` based on [css-mediaquery].
 Deisgned to use with [Radium].
 
 ###Basic usage
