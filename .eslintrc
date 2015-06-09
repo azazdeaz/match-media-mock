@@ -1,11 +1,13 @@
 {
   "parser": "babel-eslint",
   "plugins": [
-    "react"
+    "react",
+    "mocha"
   ],
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "rules": {
     "react/jsx-uses-react": 1,
@@ -17,6 +19,7 @@
     "comma-dangle": [0],
     "curly": [0],
     "strict": [0],
-    "no-use-before-define": "nofunc"
+    "no-use-before-define": "nofunc",
+    "semi": [2, "never"]
   }
 }

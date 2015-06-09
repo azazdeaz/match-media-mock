@@ -1,44 +1,44 @@
-import clone from 'lodash/lang/clone';
-import mapValues from 'lodash/object/mapValues';
-import forOwn from 'lodash/object/forOwn';
-import MediaQueryListMock from './MediaQueryListMock';
+import clone from 'lodash/lang/clone'
+import mapValues from 'lodash/object/mapValues'
+import forOwn from 'lodash/object/forOwn'
+import MediaQueryListMock from './MediaQueryListMock'
 
 export default {
 
   create() {
-    var config = {};
-    var createdMqls = {};
+    var config = {}
+    var createdMqls = {}
 
     function matchMediaMock (query) {
 
-      var mql = createdMqls[query];
+      var mql = createdMqls[query]
 
       if (!mql) {
-        mql = new MediaQueryListMock(query, () => config);
-        createdMqls[query] = mql;
+        mql = new MediaQueryListMock(query, () => config)
+        createdMqls[query] = mql
       }
 
-      return mql;
+      return mql
     }
 
     matchMediaMock.setConfig = function (newConfig) {
 
       if (!newConfig) {
-        return;
+        return
       }
 
-      var matchBeforeByQuery = mapValues(createdMqls, 'matches');
+      var matchBeforeByQuery = mapValues(createdMqls, 'matches')
 
-      config = clone(newConfig) || {};
+      config = clone(newConfig) || {}
 
       forOwn(createdMqls, function (mql, query) {
 
         if (mql.matches !== matchBeforeByQuery[query]) {
-          mql.callListeners();
+          mql.callListeners()
         }
-      });
-    };
+      })
+    }
 
-    return matchMediaMock;
+    return matchMediaMock
   }
-};
+}

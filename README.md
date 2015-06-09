@@ -35,8 +35,5 @@ app.get('/app/:width/:height', function(req, res) {
 })
 ```
 
-###TODO:
-- add tests
-
 [Radium]: https://github.com/FormidableLabs/radium
 [css-mediaquery]: https://github.com/ericf/css-mediaquery
