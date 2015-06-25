@@ -34,6 +34,7 @@ app.get('/app/:width/:height', function(req, res) {
   res.end(html)
 })
 ```
+For more detailes see the [Radium docs][Radium]
 
-[Radium]: https://github.com/FormidableLabs/radium
+[Radium]: https://github.com/FormidableLabs/radium/tree/master/docs/api#configsetmatchmedia
 [css-mediaquery]: https://github.com/ericf/css-mediaquery
