@@ -1,4 +1,4 @@
-#MatchMediaMock [![Build Status](https://travis-ci.org/azazdeaz/match-media-mock.svg?branch=master)](https://travis-ci.org/azazdeaz/match-media-mock)
+#MatchMediaMock [![Build Status](https://img.shields.io/travis/azazdeaz/match-media-mock.svg?style=flat-square)](https://travis-ci.org/azazdeaz/react-gsap-enhancer)  [![npm](https://img.shields.io/npm/dm/match-media-mock.svg?style=flat-square)]()
 Simple server side compatible substitution for ```Window.matchMedia()``` based on [css-mediaquery].
 Deisgned to use with [Radium].
 
