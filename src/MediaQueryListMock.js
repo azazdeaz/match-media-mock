@@ -15,6 +15,10 @@ export default class MediaQueryListMock {
     return mediaQuery.match(this._query, this._getConfig())
   }
 
+  get media() {
+    return this._query
+  }
+
   addListener(listener) {
     if (!ExecutionEnvironment.canUseDOM) {
       return
