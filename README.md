@@ -1,9 +1,12 @@
-#MatchMediaMock [![Build Status](https://img.shields.io/travis/azazdeaz/match-media-mock.svg?style=flat-square)](https://travis-ci.org/azazdeaz/match-media-mock)  [![npm](https://img.shields.io/npm/dm/match-media-mock.svg?style=flat-square)](https://www.npmjs.com/package/match-media-mock)
+# MatchMediaMock
+
+[![Build Status](https://img.shields.io/travis/azazdeaz/match-media-mock.svg?style=flat-square)](https://travis-ci.org/azazdeaz/match-media-mock)
+[![npm](https://img.shields.io/npm/dm/match-media-mock.svg?style=flat-square)](https://www.npmjs.com/package/match-media-mock)
 
 Simple server side compatible substitution for ```Window.matchMedia()``` based on [css-mediaquery].
 Deisgned to use with [Radium].
 
-###Basic usage
+### Basic usage
 ```javascript
 var matchMediaMock = require('match-media-mock').create()
 matchMediaMock.setConfig({type: 'screen', width: 1200})
@@ -19,7 +22,7 @@ mediaQueryList.callListeners()
 
 For more detailes about matching check out [css-mediaquery]!
 
-###Example usage with [Radium]
+### Example usage with [Radium]
 ```javascript
 var Radium = require('radium')
 var matchMediaMock = require('match-media-mock').create()
