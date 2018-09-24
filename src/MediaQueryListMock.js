@@ -1,5 +1,5 @@
-import includes from 'lodash/collection/includes'
-import pull from 'lodash/array/pull'
+import includes from 'lodash/includes'
+import pull from 'lodash/pull'
 import mediaQuery from 'css-mediaquery'
 import ExecutionEnvironment from 'exenv'
 
