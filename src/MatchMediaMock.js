@@ -1,6 +1,6 @@
-import clone from 'lodash/lang/clone'
-import mapValues from 'lodash/object/mapValues'
-import forOwn from 'lodash/object/forOwn'
+import clone from 'lodash/clone'
+import mapValues from 'lodash/mapValues'
+import forOwn from 'lodash/forOwn'
 import MediaQueryListMock from './MediaQueryListMock'
 
 export default {
