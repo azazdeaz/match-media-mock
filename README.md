@@ -3,8 +3,8 @@
 [![Build Status](https://img.shields.io/travis/azazdeaz/match-media-mock.svg?style=flat-square)](https://travis-ci.org/azazdeaz/match-media-mock)
 [![npm](https://img.shields.io/npm/dm/match-media-mock.svg?style=flat-square)](https://www.npmjs.com/package/match-media-mock)
 
-Simple server side compatible substitution for ```Window.matchMedia()``` based on [css-mediaquery].
-Deisgned to use with [Radium].
+Simple server-side compatible substitution for ```Window.matchMedia()``` based on [css-mediaquery].
+Designed for use with [Radium].
 
 ### Basic usage
 ```javascript
@@ -20,7 +20,7 @@ mediaQueryList.removeListener(listener)
 mediaQueryList.callListeners()
 ```
 
-For more detailes about matching check out [css-mediaquery]!
+For more details about matching check out [css-mediaquery]!
 
 ### Example usage with [Radium]
 ```javascript
