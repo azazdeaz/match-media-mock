@@ -1,6 +1,6 @@
 {
   "name": "match-media-mock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "server side compatible replacement for Window.matchMedia()",
   "main": "lib/MatchMediaMock.js",
   "scripts": {
